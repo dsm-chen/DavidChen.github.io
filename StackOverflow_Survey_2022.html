@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>StackOverflow Survey 2022</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">David Chen</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Project Overviews</a></li>
+							<li><a href="CRM Data Analyst Case.html#nav">CRM Data Analyst Case</a></li>
+							<li class="active"><a href="StackOverflow_Survey_2022.html#nav">Tech Trends</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/david-chen-10037527b/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/dsm-chen/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h3>Current Tech Trends & Future Projections:  <br /></h3>
+									<h4>An Overlook of the StackOverflow Developer Survey 2022</h4>
+									<p>In this project, I delve into the StackOverflow Developer Survey 2022. This survey collected responses from developers worldwide, covering a variety of topics including preferred programming languages, databases, platforms, and more. My goal is to understand the most used technologies and future trends in the developer community. Let's begin the journey!</p>
+								</header>
+								<a href="StackOverflow_Survey_2022.html" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<h4>Optimized Data Schema Design for Enhanced Power BI Analysis:<br /></h4>
+								<h5>Breaking Down the StackOverflow Developer Survey for Actionable Insights</h5>
+								<p>As part of the project, I encountered the challenge of working with a single CSV file containing the StackOverflow Developer Survey data. To ensure an optimal representation in Power BI and meet the stakeholders' goals, I redesigned the data schema by breaking down the relevant columns into eight separate CSV files, each representing a distinct table.</p>
+								<p>This approach allowed for a more organized and efficient structure, enabling seamless integration and analysis in Power BI. By creating a well-defined relational schema, I improved the clarity, accuracy, and performance of the analysis. The redesigned data schema facilitated the development of insightful visualizations and dashboards that effectively conveyed the key findings to stakeholders.</p>
+
+
+								<section id="code-summary" class="main special">
+									<header class="major">
+										<h4>Code Breakdown: StackOverflow Developer Survey Analysis</h4>
+									</header>
+									<p>The aim of this project is to clean and normalize data from the StackOverflow Developer Survey 2022 to identify current tech skills and forecast future trends. The code reads raw, unprocessed responses, then transforms this data into a refined dataset ready for extracting insights.</p>
+									<p>
+										It uses a custom function, <code>normalize_column()</code>, to normalize columns and to create csv files. Each normalized column is then stored in a dictionary for easy access. 
+									</p>
+									<p>
+										Finally, the code visualizes the data using seaborn library to showcase the frequency distribution of programming languages and database experiences among respondents who have worked with JavaScript. This is just a glimpse of the analysis carried out in this project.
+									</p>
+									<p>
+										If you are interested in the details or would like to see the entire code, please feel free to check out the project on my GitHub repository:
+										
+										<ul class="actions special">
+											<li><a href="https://github.com/dsm-chen/StackOverflow_Survey/blob/main/StackOverflow_Survey.ipynb" class="button large">View Project Code</a></li>
+										</ul>
+									</p>
+								</section>
+								<br/>
+								<section id="dashboard-summary" class="main special">
+									<header class="major">
+										<h4>Power BI Dashboard: Tech Usage & Aspiration in 2022</h4>
+									</header>
+									<p>
+										To further elucidate the insights derived from the StackOverflow Developer Survey 2022, I've created a dynamic Power BI dashboard. This interactive tool offers visualized insights and makes it easier to understand and explore the data at hand.
+									</p>
+									<p>
+										The dashboard is divided into two main sections:
+									</p>
+								
+									<p><strong>Tech Usage 2022:</strong> This page features four visualizations showcasing the data for "Programming Language Used", "Database Used", "Platform Used", and "Webframe Used". This offers an overview of the technologies predominantly used in 2022.</p>
+									<p><strong>Tech Aspiration 2022:</strong> This page also includes four visualizations but focuses on "Programming Language Trends in Tech", "Database Trends in Tech", "Platform Trends in Tech", "Webframe Trends in Tech". Here, we see the technologies that professionals aspire to work with in the future, indicating trending tech stacks.</p>
+								</section>
+								
+									
+								<br/>
+								<iframe title="tech trend 2022 v2" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiODc1ZDVjZWItNGZiOC00NDY2LWFlYzAtZGU0YjdjMjhjYjY1IiwidCI6IjY1ZTAwYWMwLWE0ZGUtNDYwNC1hZjg1LWI5MGE4MWIxYzI5YiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+
+								<section id="insights">
+									<header class="major">
+										<h3>Key Insights & Implications</h3>
+									</header>
+									<p>After analysis of the StackOverflow Developer Survey data and visualization using the Power BI dashboard, several key insights have been unearthed. These not only inform us about the present state of technology use among developers but also hint at possible future trends in the Tech Industries:</p>
+									<ol>
+										<li><strong>Increasing Interest in NoSQL Databases:</strong> Developers are showing greater interest in NoSQL databases, particularly Redis, MongoDB, and Elasticsearch. This trend could indicate a growing appreciation for the flexibility and scalability provided by NoSQL databases.</li>
+										<li><strong>PostgreSQL is Popular:</strong> PostgreSQL is the most used database. It has surpassed traditional leaders like MySQL and Microsoft SQL Server, hinting at a shift in the preferred tools for database management.</li>
+										<li><strong>Aspiration vs Reality in Database Usage:</strong> There is a discrepancy between the databases developers are currently using and what they aspire to work with. Developers are showing greater interest in working with databases like Redis, MongoDB, and Elasticsearch.</li>
+										<li><strong>Interest in TypeScript and Go</strong> Although Go is not in the top 5 most used languages, TypeScript and Go stand out in the list of languages developers want to work with. This suggests that these languages could see increased adoption in the future.</li>
+										<li><strong>JavaScript Reigns Supreme:</strong> Despite the advent of various programming languages, JavaScript continues to be the most widely used programming language and remains highly desirable for future work.</li>
+										<li><strong>Persistence of Established Languages:</strong> Established languages such as C# and Java continue to be widely used and hold value in the industry.</li>
+										<li><strong>Cloud Services are in Demand:</strong> AWS is the most popular platform, followed by Microsoft Azure and Google Cloud. This suggests that knowledge of these platforms could be vital for a wide range of roles, reflecting the increasing shift of services to the cloud.</li>
+										<li><strong>Shift Towards Modern Web Frameworks:</strong> Developers' interest is shifting from traditional web frameworks like jQuery towards more modern ones like React.js, Node.js, Vue.js, and Next.js.</li>
+										
+									</ol>
+									<p>In conclusion, these insights indicate an evolving technology landscape where developers are eager to embrace modern technologies that offer more flexibility and efficiency in web development. This information can be incredibly valuable for recruiters, educators, and developers looking to stay ahead in the ever-changing tech industry.</p>
+								</section>
+								
+								
+								
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header class="major">
+										<a href="CRM Data Analyst Case.html#nav"><h2>Mastering Marketing with CRM Analysis<br /></h2></a>
+										<h4> Unveiling Customer Insights and Enhancing Strategies through Data-Driven CRM Analysis </h4>
+										<p>Explore data-driven marketing with this project. Uncover actionable insights using advanced analytics and machine learning. Learn about customer behavior, demographics, and online interactions that drive engagement and purchases. Discover model selection, tuning, and impactful features for optimized campaigns. Get practical guidance for targeted and personalized strategies to elevate your marketing efforts.</p>
+									</header>
+									<a href="CRM Data Analyst Case.html#nav" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									
+									
+								</article>
+								<article>
+									<header>
+										<span class="date">July 11, 2022</span>
+										<h2><a href="#">Project 3<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>Under construction.</p>
+									
+								</article>
+								
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>ON, Canada<br />
+								</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">s_m_chen@hotmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/david-chen-10037527b/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://github.com/dsm-chen/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
